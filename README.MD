@@ -38,6 +38,13 @@ This script fetches Azure Activity Logs for a specified service principal and ge
     - `role_description`: Description for your custom role
     - `start_time`: Start time for log analysis (default: last 30 days)
 
+2. Setup Terraform to export API calls
+
+    ```bash
+    TF_LOG=debug 
+    terraform apply
+    ```
+
 2. Run the script:
 
     ```bash
